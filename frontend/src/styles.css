@@ -1,0 +1,170 @@
+/* styles.css */
+  
+  /* UserForm Styles */
+  form {
+    background-color: white;
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  button:disabled {
+    background-color: #d6d6d6;
+    cursor: not-allowed;
+  }
+  
+  /* Responsive Styles */
+  @media screen and (max-width: 768px) {
+  
+    form {
+      padding: 15px;
+      width: 90%;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+  
+    input {
+      font-size: 14px;
+    }
+  
+    button {
+      font-size: 16px;
+    }
+  }
+
+  /* User Management Dashboard H1 Style */
+
+  /* User Management Dashboard H1 Style */
+h1 {
+    text-align: center; /* Center the text horizontally */
+    font-size: 40px; /* Larger font size for emphasis */
+    color: #333; /* Dark text color */
+    font-weight: 800; /* Bold text */
+    margin: 30px 0; /* Margin above and below the heading */
+    text-transform: capitalize; /* Capitalize the first letter of each word */
+    background-color: #007bff; /* Blue background color */
+    color: white; /* White text color */
+    padding: 20px; /* Add padding around the text */
+    border-radius: 8px; /* Rounded corners for the background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow around the text */
+    letter-spacing: 1px; /* Space between letters for a cleaner look */
+    max-width: 90%; /* Ensure the heading doesn't overflow */
+    margin-left: auto; /* Center the heading horizontally */
+    margin-right: auto; /* Center the heading horizontally */
+  }
+  
+  @media screen and (max-width: 768px) {
+    h1 {
+      font-size: 32px; /* Smaller font size for smaller screens */
+      padding: 15px; /* Adjust padding for smaller screens */
+    }
+  }
+
+/* User List Container */
+table {
+    width: 100%;
+    border-collapse: collapse; /* Ensures borders are collapsed into a single border */
+    margin-top: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow around the table */
+  }
+  
+  th,
+  td {
+    padding: 12px 20px; /* Adds padding inside cells */
+    text-align: left; /* Aligns text to the left */
+    border-bottom: 1px solid #ddd; /* Adds border below each row */
+  }
+  
+  th {
+    background-color: #007bff; /* Blue background for header */
+    color: white; /* White text for header */
+    font-weight: 700; /* Bold text for header */
+  }
+  
+  td {
+    background-color: #f9f9f9; /* Light background for table rows */
+  }
+  
+  /* Hover Effect for Rows */
+  tr:hover {
+    background-color: #f1f1f1; /* Light gray background on hover */
+  }
+  
+  /* Action Buttons */
+  button {
+    padding: 6px 12px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  /* Edit Button */
+  button:first-child {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  button:first-child:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+  }
+  
+  /* Delete Button */
+  button:last-child {
+    background-color: #ff4d4d;
+    color: white;
+  }
+  
+  button:last-child:hover {
+    background-color: #e60000; /* Darker red on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+  }
+  
+  /* Mobile responsiveness */
+  @media screen and (max-width: 768px) {
+    th,
+    td {
+      padding: 8px 12px; /* Reduce padding for smaller screens */
+    }
+  
+    button {
+      font-size: 14px; /* Reduce button size */
+      padding: 5px 10px;
+    }
+  }
+  
