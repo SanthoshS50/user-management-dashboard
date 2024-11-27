@@ -12,7 +12,8 @@ User Management Dashboard is a powerful and user-friendly application built usin
 - 💡 **Form Validations**: Input fields with dynamic validation to prevent errors.
 - 🔒 **Secure Data Handling**: Built with best practices for safe data storage and access.
 
-### Technologies
+## Technologies
+
 - MongoDB for Database
 - Node.js & Express.js for Backend
 - React for Frontend
@@ -29,6 +30,12 @@ User Management Dashboard is a powerful and user-friendly application built usin
 1. Navigate to the `frontend` folder.
 2. Install dependencies: `npm install`.
 3. Start the development server: `npm start`.
+
+## Deployment Links :
+
+### Backend Deployment Link : https://user-management-dashboard-n6ie.onrender.com
+
+### Frontend Deployment Link : https://user-management-dashboard-lac.vercel.app
 
 ## 💬 Feedback
 
