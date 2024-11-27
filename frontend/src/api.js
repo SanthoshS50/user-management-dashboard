@@ -1,7 +1,7 @@
 // api.js
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://user-management-dashboard-n6ie.onrender.com/api';
 
 // Fetch all users
 export const fetchUsers = () => axios.get(`${API_URL}/users`);
